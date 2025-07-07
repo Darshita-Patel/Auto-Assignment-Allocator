@@ -1,0 +1,63 @@
+/* Login.css */
+
+.Lcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Set a fixed width for the container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Lcontainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Lcontainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Lcontainer .form-group {
+    margin-bottom: 15px;
+}
+
+.Lcontainer label {
+    margin-bottom: 4px; /* Reduced margin for labels */
+    font-size: 18px; /* Increased font size for labels */
+}
+
+.Lcontainer input[type="email"],
+.Lcontainer input[type="password"] {
+    width: calc(100% - 20px); /* Adjust input width to fit within the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Adjusted font size for input fields */
+}
+
+.Lcontainer .error {
+    color: #f00;
+    margin-bottom: 15px;
+}
+
+.Lcontainer button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+}
+
+.Lcontainer button[type="submit"]:hover {
+    background-color: #0056b3;
+}

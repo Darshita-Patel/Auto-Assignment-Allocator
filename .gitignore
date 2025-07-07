@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Uploads or builds
+uploads/
+frontend/build/
+backend/uploads/
+
+# Environment variables
+.env
+
+# Others
+.DS_Store

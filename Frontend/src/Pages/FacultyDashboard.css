@@ -1,0 +1,98 @@
+.FDcontainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left:560px; /* Add some space between buttons */
+  }
+  
+  .navbar ul li:first-child {
+    margin-left: 0; /* Remove margin for the first button */
+  }
+
+  .navbar ul li:last-child {
+    margin-right: 0; /* Remove margin for the first button */
+  }
+
+.navbar ul li button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.navbar ul li button:hover {
+    opacity: 0.8;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+}
+
+.content h3 {
+    margin-bottom: 20px;
+}
+
+.student-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.student-info p {
+    margin: 5px 0;
+}
+
+.student-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.student-info a:hover {
+    text-decoration: underline;
+}
