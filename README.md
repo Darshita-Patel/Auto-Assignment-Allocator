@@ -37,19 +37,20 @@ An automated assignment allocation system designed to simplify the process of di
 
 ```
 AutoAssignmentAllocator/
-├── backend/
-│   ├── server.js
+├── Backend/
+│   └── server.js
 │   └── uploads/ (assignment files)
-├── frontend/
-│   └── components/
-│       ├── AddStudent.jsx
-│       ├── AddFaculty.jsx
-│       ├── AdminDashboard.jsx
-│       ├── FacultyDashboard.jsx
-│       ├── StudentDashboard.jsx
-│       ├── UploadAssignment.jsx
-│       ├── ChangePassword.jsx
-│       └── Login.jsx
+├── Frontend/
+│   └── src/
+|       └── pages/
+│           ├── AddStudent.jsx
+│           ├── AddFaculty.jsx
+│           ├── AdminDashboard.jsx
+│           ├── FacultyDashboard.jsx
+│           ├── StudentDashboard.jsx
+│           ├── UploadAssignment.jsx
+│           ├── ChangePassword.jsx
+│           └── Login.jsx
 └── README.md
 ```
 
